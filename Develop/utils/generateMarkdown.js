@@ -29,14 +29,28 @@ function generateMarkdown(data) {
   *[Contributing](#contributing)
   *[Tests](#tests)
   *[Questions](#questions)
+
+  ## Description
+   ${data.description}
+
+  ## Install
+   ${data.install}
+
+  ## License
+   ${data.license}
+
+  ##Usage
+   ${data.usage}
+
+  ## Contributing
+   ${data.contribute}
   
-  # ${data.description}
-  # ${data.install}
-  # ${data.license}
-  # ${data.email}
-  # ${data.gitHub}
-  # ${data.test}
-  # ${data.contribute}
+  ## Test
+   ${data.test}
+
+  ## Questions
+  Contact me if you have any questions at ${data.email}.
+  Feel free to checkout my GitHub at ${data.gitHub}.
 
 
 `;
