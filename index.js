@@ -29,6 +29,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'usage',
+        message: 'How does this app work?',
+    },
+    {
+        type: 'input',
         name: 'email',
         message: 'Enter your email address: ',
     }, 
