@@ -58,7 +58,6 @@ const questions = [
 function init() {
     console.log("   ");
     inquirer.prompt(questions).then((answers)=>{
-        console.log("       ");
         console.log(`Generating Professional README.md for ${answers.title}...`);
         writeToFile('README.md', generateMarkdown({...answers}));
     }) 
@@ -67,7 +66,7 @@ function init() {
 // function to write README file
 function writeToFile(fileName, data) {
     
-    return fs.writeFileSync(path.join(fileName), data);
+    return fs.writeFileSync(path.join(__dirname,'generatedReadme',fileName), data);
 }
 
 // Function call to initialize app
