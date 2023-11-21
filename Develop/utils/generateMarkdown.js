@@ -46,13 +46,19 @@ ${renderLicenseBadge(data.license)}
 
 ## Table of Contents
 
-* [Description](#description)
-* [Installation](#installation)
-* [Usage](#usage)
+[Description](#description)
+
+[Installation](#installation)
+
+[Usage](#usage)
+
 ${renderLicenseLink(data.license)}
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
+
+[Contributing](#contributing)
+
+[Tests](#tests)
+
+[Questions](#questions)
 
 ## Description
 
